@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito|satisty');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Zen+Dots&display=swap');
+
+body {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(219, 62, 154),
+    rgb(235, 166, 37)
+  );
+  font-family: 'Zen Dots', sans-serif;
+  color: rgba(241, 238, 238, 0.877);
+}
+
+.frame {
+  background-color: #3d3d3d;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  box-shadow: 8px 16px 16px rgba(9, 14, 59, 0.6);
+}
+
+.frame .card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.back h5 {
+  margin: 0;
+}
+
+.flip-me {
+  position: absolute;
+  top: 30%;
+  left: 77%;
+  font-size: 1.3em;
+  transform: rotate(-90deg);
+  color: rgb(35, 37, 37);
+}
+
+.front h1 {
+  font-family: 'Nunito';
+  font-size: 500%;
+  margin: 16px 80px;
+  color: #fc7b30;
+  text-align: center;
+}
+
+.card:hover .flip {
+  transform: rotateX(180deg) translate3d(0, 0, 0);
+  box-shadow: 8px -10px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.flip {
+  transform-style: preserve-3d;
+  transition: all 0.7s ease-in-out;
+  perspective: 1000px;
+}
+
+.front,
+.back {
+  -webkit-backface-visibility: hidden;
+  width: 100%;
+  height: 100%;
+  background: #3d3d3d;
+}
+
+.card .back {
+  transform: rotateX(180deg);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.back {
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.back h2 {
+  font-size: 18px;
+  color: #efe22f;
+}
+
+.back h3 {
+  color: rgb(255, 255, 255);
+  font-weight: 300;
+  font-size: 22px;
+  margin: 32px;
+}
+
+img {
+  width: 32px;
+  height: auto;
+  padding: 15px;
+}
+
+img:hover {
+  width: 42px;
+  cursor: pointer;
+}
+
+#whats {
+  width: 14px;
+  height: auto;
+  padding: 0;
+  cursor: auto;
+}

@@ -1,0 +1,92 @@
+body {
+  background-color: #404040;
+}
+.container {
+  background-color: #1D1D1D;
+  color: #BFF250;
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+#titulo {
+  padding: 1.5rem;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.box {
+  background-color: #404040;
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input label {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-right: 1rem;
+  margin-left: 2rem;
+}
+
+input {
+  padding: 5px 10px;
+  margin: 4px 0;
+  border-radius: 4px;
+}
+
+input:focus {
+  border: 3px solid #555;
+}
+
+button{
+  background-color: #BFF250;
+  color: #1D1D1D;
+  text-align: center;
+  font-weight: bold;
+  padding: 5px;
+  margin-left: 2rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #85A63F;
+}
+
+button:active {
+  background-color: #36421c;
+}
+
+table {
+  margin-left: 2rem;
+  color: #697FBF;
+  width: 80dvw;
+}
+
+table, th, td {
+  border: 1.5px solid #1D1D1D;
+  border-collapse: collapse;
+  padding: 1rem;
+}
+
+tr :hover {
+  background-color: #1D1D1D;
+}
+
+td {
+  width: 33%;
+}
+
+.resp {
+  padding: 1.5rem;
+  color: #fff;
+  font-size: 1.5rem;
+}

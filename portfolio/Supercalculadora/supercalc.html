@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./calculadora.css" />
+    <title>Calculadora</title>
+  </head>
+  <body>
+    <div id="main_div">
+      <div class="container">
+        <div><p id="titulo">SUPER CALCULADORA</p></div>
+        <div class="input">
+          <label for="num_1">Primeiro Número (A)</label>
+          <input type="number" name="num_1" id="num_a" />
+          <label for="num_2" id="">Segundo Número (B)</label>
+          <input type="number" name="num_2" id="num_b" />
+          <button id="btn" type="submit" onclick="calculaTudo()">
+            Calcular
+          </button>
+        </div>
+      </div>
+      <div class="box" style="overflow-x:auto">
+        <table>
+          <tr>
+            <td>Soma<br /><span class="resp" id="soma"></span></td>
+            <td>Subtração A-B<br /><span class="resp" id="subtAB"></span></td>
+            <td>Subtração B-A<br /><span class="resp" id="subtBA"></span></td>
+          </tr>
+          <tr>
+            <td>Multiplicação<br /><span class="resp" id="mult"></span></td>
+            <td>Divisão A-B<br /><span class="resp" id="divAB"></span></td>
+            <td>Divisão B-A<br /><span class="resp" id="divBA"></span></td>
+          </tr>
+          <tr>
+            <td>
+              Potencia de A na base B<br /><span id="potAB" class="resp"></span>
+            </td>
+            <td>
+              Potencia de B na base A<br /><span id="potBA" class="resp"></span>
+            </td>
+            <td>
+              Raiz quadrada de A<br /><span class="resp" id="raizA"></span>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Raiz quadrada de B<br /><span class="resp" id="raizB"></span>
+            </td>
+            <td>Fatorial de A<br /><span class="resp" id="fatA"></span></td>
+            <td>Fatorial de B<br /><span class="resp" id="fatB"></span></td>
+          </tr>
+          <tr>
+            <td>
+              Porcentagem de A em relação a B<br /><span
+                class="resp"
+                id="porcAB"
+              ></span>
+            </td>
+            <td>
+              Porcentagem de B em relação a A<br /><span
+                class="resp"
+                id="porcBA"
+              ></span>
+            </td>
+            <td>Média<br /><span class="resp" id="media"></span></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <script src="./calculadora.js"></script>
+  </body>
+</html>
