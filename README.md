@@ -23,7 +23,7 @@ O site foi desenvolvido com as seguintes seções:
 
 ### Tecnicas
 
-Foi utilizado o framework Booststrap em todo o site:
+Foi utilizado o framework <a href="https://getbootstrap.com/">Booststrap</a> em todo o site:
 
 * navbar e menu;
 * cards da sessão Habilidades;
@@ -54,4 +54,4 @@ Também utilizei iframe para inserir videos do youtube:
 
 # RESULTADO
 
-#### Confira <a href="https://portfolio-lmparedes.netlify.app/">aqui</a> como ficou
+#### Confira <a target="_blank" href="https://portfolio-lmparedes.netlify.app/">aqui</a> como ficou
