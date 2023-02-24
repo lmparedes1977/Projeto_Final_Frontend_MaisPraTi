@@ -42,7 +42,7 @@ Foi utilizada a ferramenta Pure Ref para coletar e amrazenar as referências que
 
 ### Icones
 
-Foram utilizados icons da <a href"https://fontawesome.com/">fontawesome</a> em todo o trabalho.
+Foram utilizados icons da <a href="https://fontawesome.com/">fontawesome</a> em todo o trabalho.
 
 ![icones](https://user-images.githubusercontent.com/110631380/221256559-8d546052-ed78-4e1d-a9d3-af0c8089f5e0.jpg)
 
@@ -50,5 +50,8 @@ Foram utilizados icons da <a href"https://fontawesome.com/">fontawesome</a> em t
 
 Também utilizei iframe para inserir videos do youtube:
 
-![iframe](https://user-images.githubusercontent.com/110631380/221256742-a0935b43-757e-4071-a8cb-6a733da82f53.jpg)
+![iframe](https://user-images.githubusercontent.com/110631380/221257215-3d9073c3-6583-4897-bacc-b56613e997f8.jpg)
 
+# RESULTADO
+
+#### Confira <a href="https://portfolio-lmparedes.netlify.app/">aqui</a> como ficou
